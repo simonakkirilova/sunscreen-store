@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title>SKIN1004</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <a href="index.html">← Назад към продуктите</a>
+    <h1>SKIN1004</h1>
+  </header>
+
+  <main class="product-details">
+    <div class="product-info">
+      <img src="images/skin1004.webp" alt="SKIN1004">
+      <div class="product-text">
+        <p><strong>Слънцезащитен стик Madagascar Centella Hyalu-Cica Silky-Fit SPF 50+, 20 g</strong></p>
+        <p class="price">Цена: 34,90 лв</p>
+      </div>
+    </div>
+
+    <div class="product-description">
+        <p><strong>Пълно описание: </strong>Слънцезащитният стик Madagascar Centella Hyalu-Cica Silky-Fit от 
+            SKIN 1004 с фактор SPF50+ едновременно предпазва и хидратира кожата на лицето. Формулата обогатена 
+            с екстракт от центела защитава кожата от вредното влияние на UV лъчите, оставяйки я мека и хидратирана.</p>
+    </div>
+
+    <section class="purchase-form">
+      <h2>Закупи продукта</h2>
+      <form id="order-form">
+        <label>Име: <input type="text" name="name" required></label><br>
+        <label>Адрес: <input type="text" name="address" required></label><br>
+        <button type="submit">Изпрати поръчка</button>
+      </form>
+      <p id="order-message"></p>
+    </section>
+
+    <section class="reviews">
+      <h2>Потребителски ревюта</h2>
+      <div id="reviews-list">
+        <p>Много съм доволна!</p>
+      </div>
+
+      <form id="review-form">
+        <label>Коментар:<br><textarea name="comment" required></textarea></label><br>
+        <button type="submit">Изпрати ревю</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

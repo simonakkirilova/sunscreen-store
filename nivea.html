@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title>NIVEA SUN</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <a href="index.html">← Назад към продуктите</a>
+    <h1>NIVEA SUN</h1>
+  </header>
+
+  <main class="product-details">
+    <div class="product-info">
+      <img src="images/nivea.webp" alt="NIVEA SUN">
+      <div class="product-text">
+        <p><strong>Слънцезащитен лосион Protect&Moisture SPF50, 200 ml</strong></p>
+        <p class="price">Цена: 21,40 лв</p>
+      </div>
+    </div>
+
+    <div class="product-description">
+        <p><strong>Пълно описание: </strong>NIVEA SUN Protect & Moisture SPF 50 e хидратиращ слънцезащитен лосион за тяло, който съдържа високо ефективни UVA/UVB филтри, които незабавно защитават кожата Ви и помагат за намаляване риска от слънчеви алергии. Подхранващата формула подпомага защитната бариера на кожата, осигурява дълготрайна хидратация, прави кожата мека и нежна и е водоустойчив. NIVEA SUN Protect & Moisture осигурява на кожата това, което има нужда под слънцето: високо ефективна слънчева защита и интензивна дълготрайна хидратация.</p>
+    </div>
+
+    <section class="purchase-form">
+      <h2>Закупи продукта</h2>
+      <form id="order-form">
+        <label>Име: <input type="text" name="name" required></label><br>
+        <label>Адрес: <input type="text" name="address" required></label><br>
+        <button type="submit">Изпрати поръчка</button>
+      </form>
+      <p id="order-message"></p>
+    </section>
+
+    <section class="reviews">
+      <h2>Потребителски ревюта</h2>
+      <div id="reviews-list">
+        <p>Много хубав продукт!</p>
+        <p>Не оставя мазен филм, супер е.</p>
+      </div>
+
+      <form id="review-form">
+        <label>Коментар:<br><textarea name="comment" required></textarea></label><br>
+        <button type="submit">Изпрати ревю</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

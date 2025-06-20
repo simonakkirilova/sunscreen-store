@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title>CARROTEN</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <a href="index.html">← Назад към продуктите</a>
+    <h1>CARROTEN</h1>
+  </header>
+
+  <main class="product-details">
+    <div class="product-info">
+      <img src="images/carroten.webp" alt="CARROTEN">
+      <div class="product-text">
+        <p><strong>Слънцезащитно олио за придобиване на тен Protect&Tan SPF 30, 150 ml</strong></p>
+        <p class="price">Цена: 19,90 лв</p>
+      </div>
+    </div>
+
+    <div class="product-description">
+        <p><strong>Пълно описание:</strong>Carroten Protect&Tan SPF 30 e слънцезащитното олио за тен, обогатено 
+            с натурални масла от морков и кокос. Осигурява оптимално предпазване от UVA + UVB + IRA лъчи, 
+            причиняващи увреждане на кожата. Водоустойчивата формула има силно хидратиращо действие и спомага 
+            за придобиване на красив и дълготраен тен. Дерматологично тестван.</p>
+    </div>
+
+    <section class="purchase-form">
+      <h2>Закупи продукта</h2>
+      <form id="order-form">
+        <label>Име: <input type="text" name="name" required></label><br>
+        <label>Адрес: <input type="text" name="address" required></label><br>
+        <button type="submit">Изпрати поръчка</button>
+      </form>
+      <p id="order-message"></p>
+    </section>
+
+    <section class="reviews">
+      <h2>Потребителски ревюта</h2>
+      <div id="reviews-list">
+        <p>Ползвам го от години!!!</p>
+        <p>Тен и защита едновременно!</p>
+        <p>Има и по-добри на пазара..</p>
+      </div>
+
+      <form id="review-form">
+        <label>Коментар:<br><textarea name="comment" required></textarea></label><br>
+        <button type="submit">Изпрати ревю</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

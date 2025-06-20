@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title>HAWAIIAN TROPIC</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <a href="index.html">← Назад към продуктите</a>
+    <h1>HAWAIIAN TROPIC</h1>
+  </header>
+
+  <main class="product-details">
+    <div class="product-info">
+      <img src="images/hawaiian.webp" alt="HAWAIIAN TROPIC">
+      <div class="product-text">
+        <p><strong>Слънцезащитен лосион Hydrating Protaction SPF 50, 180 ml</strong></p>
+        <p class="price">Цена: 25,90 лв</p>
+      </div>
+    </div>
+
+    <div class="product-description">
+        <p><strong>Пълно описание: </strong>Слънцезащитният лосион Hydrating Protection SPF 50 от HAWAIIAN TROPIC 
+          е Вашият верен съюзник в борбата с вредните слънчеви лъчи, предлагайки Ви широкоспектърна защита от UVA 
+          и UVB лъчи. Тази уникална формула предлага не само мощна защита, но и интензивна хидратация, която оставя 
+          кожата Ви мека и гладка. Лосионът е с лека текстура, която не оставя мазен филм, а вместо това осигурява 
+          комфортно усещане с приятен тропически аромат за лятно настроение. С Hawaiian Tropic Hydrating Protection 
+          можете да се насладите на слънцето, без да се тревожите за здравето на кожата си. Поглезете се с този 
+          лосион и се насладете на лятото!</p>
+    </div>
+
+    <section class="purchase-form">
+      <h2>Закупи продукта</h2>
+      <form id="order-form">
+        <label>Име: <input type="text" name="name" required></label><br>
+        <label>Адрес: <input type="text" name="address" required></label><br>
+        <button type="submit">Изпрати поръчка</button>
+      </form>
+      <p id="order-message"></p>
+    </section>
+
+    <section class="reviews">
+      <h2>Потребителски ревюта</h2>
+      <div id="reviews-list">
+        <p>Нов продукт на пазара, някой ползвал ли го е?</p>
+      </div>
+
+      <form id="review-form">
+        <label>Коментар:<br><textarea name="comment" required></textarea></label><br>
+        <button type="submit">Изпрати ревю</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

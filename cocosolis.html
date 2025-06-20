@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title>COCOSOLIS</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <a href="index.html">← Назад към продуктите</a>
+    <h1>COCOSOLIS</h1>
+  </header>
+
+  <main class="product-details">
+    <div class="product-info">
+      <img src="images/cocosolis.png" alt="COCOSOLIS">
+      <div class="product-text">
+        <p><strong>Слънцезащитен лосион Natural SPF 30, 100 g</strong></p>
+        <p class="price">Цена: 39,90 лв</p>
+      </div>
+    </div>
+
+    <div class="product-description">
+        <p><strong>Пълно описание: </strong>Cocosolis Natural Sunscreen Lotion SPF 30 доставя истинска наслада 
+          на кожата под слънчевите лъчи. 100% натуралните съставки го правят подходящ за нежна и чувствителна кожа, 
+          а органичните масла имат ценно подхранващо и омекотяващо действие. Лосионът осигурява висока защита срещу 
+          вредното влияние на UVA и UVB лъчите. Прави тена дълготраен и по-наситен. Фината прозрачна текстура се 
+          нанася изключително лесно, без да оставя бели следи по кожата.</p>
+    </div>
+
+    <section class="purchase-form">
+      <h2>Закупи продукта</h2>
+      <form id="order-form">
+        <label>Име: <input type="text" name="name" required></label><br>
+        <label>Адрес: <input type="text" name="address" required></label><br>
+        <button type="submit">Изпрати поръчка</button>
+      </form>
+      <p id="order-message"></p>
+    </section>
+
+    <section class="reviews">
+      <h2>Потребителски ревюта</h2>
+      <div id="reviews-list">
+        <p>НАЙ-ДОБРИЯТ!!!!!!</p>
+      </div>
+
+      <form id="review-form">
+        <label>Коментар:<br><textarea name="comment" required></textarea></label><br>
+        <button type="submit">Изпрати ревю</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
